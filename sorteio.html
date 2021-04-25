@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/united/bootstrap.min.css">
+  <title>Sorteio de jogos</title>
+</head>
+
+<body> <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Gauchão Super League</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Cadastro de clube</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sorteio.html">Sorteio de jogos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pesquisa.html">Pesquisa</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row mt-2">
+      <div class="col-sm-3">
+        <img src="taca_vinhos.jpg" alt="Taça de Vinhos" style="max-width: 100%;">
+      </div>
+      <div class="col-sm-9">
+        <h4 class="text-primary mt-1">Sorteio dos jogos</h4>
+        <table class="table table-striped">
+          <tr>
+            <th>Id</th>
+            <th>Clube</th>
+            <th>Cidade</th>
+            <th>Treinador</th>
+            <th>Pote</th>
+            <th>Foto</th>
+            <th>Ações</th>
+          </tr>
+        </table>
+    <button type="button" class="btn btn-primary btn-lg btn-block" id="buttonTableSorteio">Sortear jogos</button>
+        <br><br>
+        <h4 class="text-primary mt-1">Jogos gerados</h4>
+        <h4 id="times"></h4>
+
+    </div>
+  </div>
+
+  <script src="sorteio.js"></script>  
+</body>
+
+</html>
